@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# A fabric script that distributes an archive to web servers
 """Compress web static package
 """
 from fabric.api import *

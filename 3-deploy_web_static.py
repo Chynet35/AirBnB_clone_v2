@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# A fabric script that creates and distributes an archive to your web servers.
 import os.path
 from datetime import datetime
 from fabric.api import env
@@ -6,7 +7,7 @@ from fabric.api import local
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ['100.25.19.204', '54.157.159.85']
+env.hosts = ['18.204.9.21', '100.25.104.210']
 
 
 def do_pack():

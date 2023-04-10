@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# A fabric script that generates a.tgz archive
 from fabric.api import local
 from time import strftime
 from datetime import date
